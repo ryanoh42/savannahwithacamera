@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah A. | Wedding and Portrait Photographer | Metro Detroit</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/kbu4pje.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body> 
+    <div class="landing-page">
+        <nav class="navbar">
+            <div class="logo" onclick="scrollToTop()">
+                <h4>Savannah</h4>
+                <h5>With A Camera</h5>
+            </div>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-list">
+                <!-- <li class="nav-item" id="home-link" onclick="scrollToTop()">Home</li> -->
+                <li class="nav-item" id="services-link" onclick="scrollToServices()">Services</li>
+                <li class="nav-item" id="portfolio-link" onclick="scrollToFeatured()">Portfolio</li>
+                <li class="nav-item" id="about-link" onclick="scrollToAbout()">About</li>
+                <li class="nav-item mobile-nav-contact" onclick="showContactForm()">Contact</li>
+            </ul>
+            <button class="contact-btn" onclick="showContactForm()">Contact</button>
+        </nav>
+        <div class="landing-content">
+            <div class="landing-left">
+                <div class="headline-wrap">
+                    <h1>Metro Detroit</h1>
+                    <h1>Wedding & Portrait</h1>
+                    <h1>Photographer</h1>
+                </div>
+                <button class="contact-btn landing-cta" href="#/" onclick="showContactForm()">BOOK NOW</button>
+            </div>
+            <div class="hero-wrap">
+                <div class="hero-overlay">Metro Detroit <span class="hero-overlay-span">Wedding & Portrait</span> Photographer</div>
+                <img class="hero-img" src="images/hero.jpg" alt="Bride and Groom Posing Together At Their Wedding">
+            </div>
+        </div>
+    </div>
+
+    <div class="services-section" id="services-section">
+        <h2>Services</h2>
+        <div class="services">
+            <article class="service-card">
+                <div class="service-overlay"><h3>Wedding</h3></div>
+                <img src="images/services/wedding-services.jpg">
+            </article>
+            <article class="service-card">
+                <div class="service-overlay"><h3>Engagement</h3></div>
+                <img src="images/services/engagement-services.jpg">
+            </article>
+            <article class="service-card">
+                <div class="service-overlay"><h3>Portrait/Family</h3></div>
+                <img src="images/services/family-services.jpg">
+            </article>
+            <article class="service-card">
+                <div class="service-overlay"><h3>Event/Commercial</h3></div>
+                <img src="images/services/commercial-services.jpg">
+            </article>
+        </div>
+    </div>
+
+    <div class="featured-section" id="featured-section">
+        <div class="featured">
+            <div class="featured-cards">
+                <div class="featured-text">
+                    <h2>Featured Work</h2>
+                    <a href="#/">See All</a>
+                    <button class="contact-btn" onclick="showContactForm()">Get In Touch</button>
+                </div>
+                <div class="featured-wrap">
+                    <div class="featured-overlay"><a href="#/"><h3 class="featured-overlay-text">Name + Name</h3></a></div>
+                    <img src="images/featured/featured-engagement.jpg" alt="">
+                </div>
+                <div class="featured-wrap">
+                    <div class="featured-overlay"><a href="#/"><h3 class="featured-overlay-text">Name + Name</h3></a></div>
+                    <img src="images/featured/featured-couple.jpg" alt="">
+                </div>
+                <div class="featured-wrap">
+                    <div class="featured-overlay"><a href="#/"><h3 class="featured-overlay-text">Name</h3></a></div>
+                    <img src="images/featured/featured-girl.jpg" alt="">
+                </div>
+                <button class="contact-btn-mobile" href="#">Get In Touch</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section" id="about-section">
+        <div class="about">
+            <div class="about-me-img">
+                <img class="about-me-image" src="images/about/about-img.png" alt="Portrait photograph of Savannah Andrzejewski">
+            </div>
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>My name is Savannah Andrzejewski. I am a Metro-Detroit based photographer who is always willing to travel! I find every shoot to be an adventure because I love getting to know people, exploring different locations, and being able to use my camera to create.</p><p>My goal as your photographer is to make you feel comfortable and confident. You are more than welcome to listen to music or bring a loved one to hype you up during your shoot! I can't wait to meet you and use my camera to freeze moments in time, providing you with pictures beyond words.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item" id="home-link" onclick="scrollToTop()">Home</li>
+                <li class="footer-nav-item" id="services-link" onclick="scrollToServices()">Services</li>
+                <li class="footer-nav-item" id="portfolio-link">Portfolio</li>
+                <li class="footer-nav-item" id="about-link" onclick="scrollToAbout()">About</li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <a href="mailto:savannahandrz@gmail.com">Email: savannahandrz@gmail.com</a>
+            <a href="tel:5869157984">Phone: (586) 915-7984</a>
+            <button class="contact-btn" href="#" onclick="showContactForm()">Contact Form</button>
+        </div>
+        <div class="footer-socials">
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <a href="https://instagram.com/savannahwithacamera" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/savannahwithacamera" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="form-modal" id="form-modal">
+        <div class="form-wrap">
+            <i class="fas fa-times" onclick="showContactForm()"></i>
+            <div class="form-header">Contact</div>
+            <form name="contact" class="contact-form" netlify>
+                <div class="form-input name-container">
+                    <label for="name"></label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-input email-container">
+                    <label for="email"></label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-input type-container">
+                    <label for="type-of-event"></label>
+                    <select class="type-select form-select" id="type-of-event" name="type">
+                        <option value="none" selected>Select Event Type</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="engagement">Engagement Session</option>
+                        <option value="portrait">Portrait</option>
+                        <option value="family">Family Portrait</option>
+                        <option value="event">Event</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                <div class="form-input date-container">
+                    <label for="date"></label>
+                    <input class="form-control date-input" type="date" name="email" id="date" placeholder="Date of Event" required>
+                </div>
+                <div class="form-input message-container">
+                    <label for="message"></label>
+                    <textarea class="form-control" id="message" name="message" rows="5" cols="43" placeholder="Message"></textarea>
+                </div>
+                <div class="submit-container">
+                    <input type="submit" value="Submit" class="submit-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <a class="to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </a> 
+
+    <script src="js/index.js"></script>
+</body>
+</html>
