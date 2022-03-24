@@ -27,17 +27,17 @@ function scrollToTop() {
 }
 
 function scrollToServices() {
-    document.getElementById('services-section').scrollIntoView({behavior: 'smooth'});
+    document.querySelector('#services-section').scrollIntoView({behavior: 'smooth'});
     navList.classList.remove("mobile-nav-show")
 }
 
 function scrollToFeatured() {
-    document.getElementById('featured-section').scrollIntoView({behavior: 'smooth'});
+    document.querySelector('#featured-section').scrollIntoView({behavior: 'smooth'});
     navList.classList.remove("mobile-nav-show")
 }
 
 function scrollToAbout() {
-    document.getElementById('about-section').scrollIntoView({behavior: 'smooth'});
+    document.querySelector('#about-section').scrollIntoView({behavior: 'smooth'});
     navList.classList.remove("mobile-nav-show")
 }
 
